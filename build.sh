@@ -2,7 +2,7 @@
 
 echo before
 
-python -c 'import sys; print(sys.version)'
+/bin/python -c 'import sys; print(sys.version)'
 
 export PATH="/home/yegor/miniconda3/bin:$PATH"
 
