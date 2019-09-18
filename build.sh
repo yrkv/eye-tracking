@@ -2,8 +2,6 @@
 
 echo before
 
-# python trainer.py
-
-conda list
+/home/yegor/miniconda3/bin/python trainer.py
 
 echo after
