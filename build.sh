@@ -2,6 +2,8 @@
 
 echo before
 
-python trainer.py
+# python trainer.py
+
+conda list
 
 echo after
