@@ -7,6 +7,6 @@ python trainer.py
 
 # by this point, trainer.py should have added whatever to this directory
 
-git rm --cached .
+git rm --cached -r .
 git add *.h5
 git commit -a -m "auto-push: $BUILD_NUMBER"
