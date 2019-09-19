@@ -2,8 +2,10 @@
 
 export PATH="/home/public/miniconda3/bin:$PATH"
 
-eval "$(ssh-agent -s)"
-ssh-add /var/lib/jenkins/.ssh/id_rsa
+#eval "$(ssh-agent -s)"
+#ssh-add /var/lib/jenkins/.ssh/id_rsa
+
+echo $JENKINS_HOME
 
 git clone git@github.com:yrkv/eye-tracking-models.git $JENKINS_HOME/eye-tracking-models
 
