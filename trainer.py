@@ -21,6 +21,4 @@ print('send model')
 
 #home = os.environ['JENKINS_HOME']
 #model.save('{}/eye-tracking-models/model.h5'.format(home))
-if 'models' not in os.listdir():
-    os.mkdir('models')
-model.save('models/model.h5')
+model.save('model.h5')
