@@ -1,12 +1,9 @@
 
 import utils
-
-#import keras
-#from keras.callbacks import TensorBoard
-
 import network
 
 import numpy as np
+import os
 
 
 (x_train, y_train), (x_test, y_test) = utils.load_data()
@@ -22,4 +19,5 @@ model.fit(x_train, y_train / np.array([1920, 1080]),
 
 print('send model')
 
-model.save('/home/public/eye-tracking-models/model.h5')
+home = os.environ['JENKINS_HOME']
+model.save('{}/eye-tracking-models/model.h5'.format(home))
