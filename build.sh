@@ -3,9 +3,10 @@
 export PATH="/home/public/miniconda3/bin:$PATH"
 
 #eval "$(ssh-agent -s)"
+
 #ssh-add $JENKINS_HOME/.ssh/id_rsa
 
-git clone https://github.com/yrkv/eye-tracking-models.git $JENKINS_HOME/eye-tracking-models
+git clone git@github.com:yrkv/eye-tracking-models.git $JENKINS_HOME/eye-tracking-models
 
 python trainer.py
 
