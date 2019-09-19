@@ -19,5 +19,6 @@ model.fit(x_train, y_train / np.array([1920, 1080]),
 
 print('send model')
 
-home = os.environ['JENKINS_HOME']
-model.save('{}/eye-tracking-models/model.h5'.format(home))
+#home = os.environ['JENKINS_HOME']
+#model.save('{}/eye-tracking-models/model.h5'.format(home))
+model.save('models/model.h5')
