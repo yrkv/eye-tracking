@@ -4,7 +4,7 @@ echo before
 
 which python
 
-export PATH="/home/yegor/miniconda3/bin:$PATH"
+export PATH="/home/public/miniconda3/bin:$PATH"
 
 which python
 
