@@ -4,7 +4,6 @@ import os
 import io
 import keras
 import cv2
-import IPython
 
 import face_recognition
 
@@ -107,7 +106,7 @@ def get_inputs(image, landmarks=None, crash=False, out_size=128):
         return None
 
 # I'm like 60% sure this increases framerate
-def jpeg_array_to_img(array, fmt='jpeg'):
-    f = io.BytesIO()
-    keras.preprocessing.image.array_to_img(array).save(f, fmt)
-    return IPython.display.Image(data=f.getvalue())
+#def jpeg_array_to_img(array, fmt='jpeg'):
+    #f = io.BytesIO()
+    #keras.preprocessing.image.array_to_img(array).save(f, fmt)
+    #return IPython.display.Image(data=f.getvalue())
