@@ -4,6 +4,8 @@ from keras.layers import (Input, Dense, Conv2D, Flatten, GaussianNoise,
                           Concatenate, MaxPooling2D, Dropout, BatchNormalization)
 import keras.backend as K
 
+K.tensorflow_backend._get_available_gpus()
+
 # This network consists of three parts:
 #  * conv-nets on both eyes - directly detect which way they look
 #  * conv-net on entire face - detect face/head orientation

@@ -6,6 +6,8 @@ import utils
 
 import network
 
+import numpy as np
+
 
 (x_train, y_train), (x_test, y_test) = utils.load_data()
 
