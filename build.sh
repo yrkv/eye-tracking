@@ -10,3 +10,4 @@ python trainer.py
 
 # by this point, trainer.py should have added whatever to this directory
 
+git add .
