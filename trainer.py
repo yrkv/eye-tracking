@@ -21,3 +21,5 @@ model.fit(x_train, y_train / np.array([1920, 1080]),
 # send model
 
 print('send model')
+
+model.save('/home/public/eye-tracking-models/model.h5')
