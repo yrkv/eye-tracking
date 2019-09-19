@@ -15,7 +15,7 @@ model = network.get_model()
 
 model.fit(x_train, y_train / np.array([1920, 1080]),
                  validation_data=(x_test, y_test / np.array([1920, 1080])),
-                 batch_size=64, epochs=10,
+                 batch_size=64, epochs=100,
                  verbose=1)
 
 # send model
