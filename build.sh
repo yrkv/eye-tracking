@@ -13,4 +13,4 @@ git status
 git add *.h5
 git commit -a -m "auto-push: $BUILD_NUMBER"
 git remote add origin https://github.com/yrkv/eye-tracking-models.git
-git push -u origin master
+#git push -u origin master
