@@ -8,6 +8,7 @@ python trainer.py
 
 
 cp *.h5 $JENKINS_HOME/eye-tracking-models
+git checkout master
 git status
 git add *.h5
 git commit -a -m "auto-push: $BUILD_NUMBER"
