@@ -9,4 +9,5 @@ python trainer.py
 cp *.h5 $JENKINS_HOME/eye-tracking-models
 git add .
 git commit -a -m "auto-push: $BUILD_NUMBER"
-git push
+git remote add origin https://github.com/yrkv/eye-tracking-models.git
+git push -u origin master
